@@ -17,6 +17,7 @@ Scanner scanner = new Scanner(System.in);
             System.out.println("\n el numero es impar ");
         }
         //cierra el if de par o impar
+        //holiiiiiiiiiiiii
     }
 
 }
