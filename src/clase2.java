@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Operaciones{
+
     public void suma(double a, double b){
         System.out.println("\n"+a+" + "+b+" = "+(a+b));
     }// FIN METODO SUMA
@@ -10,7 +11,6 @@ class Operaciones{
     public void mult(double a, double b){
         System.out.println("\n"+a+" * "+b+" = "+(a*b));
     }// FIN METODO MULT
-
     public void divi(double a, double b){
         if(b==0){
             System.err.println("\nNo se puede dividir por 0");
@@ -30,12 +30,10 @@ public class clase2{
         String repcalc = null;
        do {
            System.out.println("\nBienvenido a la calculadora");
-
            System.out.println("\nIngresar primer valor: ");
            var a = scanner.nextDouble();
            System.out.println("\nIngresar segundo valor: ");
            var b = scanner.nextDouble();
-
            System.out.println("\nQue tipo de operación desea?" +
                    "\n------------------------------" +
                    "\nSUMA(1)\nRESTA(2)\nMULTIPLICACION(3)\nDIVISIÓN(4)\nSALIR(0)");
@@ -64,7 +62,3 @@ public class clase2{
     }//FIN DE METODO "main"
 
 }//FIN CLASE "CLASE2"
-
-
-
-
