@@ -1,31 +1,13 @@
-import java.util.Scanner;
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+void main() {
+    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+    // to see how IntelliJ IDEA suggests fixing it.
+    IO.println(String.format("Hello and welcome!"));
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("quieres sumar? yes/not");
-        String respuesta = sc.nextLine();
-
-        if(respuesta.equals("yes")) {
-
-            System.out.println("dime un numero");
-            double num = sc.nextDouble();
-            System.out.println("dime otro numero");
-            double num2 = sc.nextDouble();
-            suma(num, num2);
-        }else if  (respuesta.equals("not")) {
-
-            System.out.println("fin del programa");
-        }else{
-
-            System.err.println("error, responda con si o no");
-        }
+    for (int i = 1; i <= 5; i++) {
+        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+        IO.println("i = " + i);
     }
-
-
-    public static void suma (double a, double b){
-        System.out.println(a+b);
-    }
-
 }
