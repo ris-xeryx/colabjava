@@ -1,3 +1,4 @@
+package paroimpar;
 
 import java.util.Scanner;
 

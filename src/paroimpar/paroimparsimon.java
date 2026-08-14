@@ -1,3 +1,5 @@
+package paroimpar;
+
 import java.util.Scanner;
 //pide dos numero, los multiplica t dice si es impar o no
 public class paroimparsimon {

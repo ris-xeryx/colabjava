@@ -1,3 +1,5 @@
+package paroimpar;
+
 import java.util.Scanner;
 //PIDE DOS NUMERO LOS MULTIPLICAS Y DICE SI ES PAR O IMPAR
 public class paroimparAguaz {

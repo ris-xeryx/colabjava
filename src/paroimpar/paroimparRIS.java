@@ -1,3 +1,5 @@
+package paroimpar;
+
 import java.util.Scanner;
 // que el usuario ingrese dos numeros, multiplicarlos e indicar si es par o impar
 public class paroimparRIS {
