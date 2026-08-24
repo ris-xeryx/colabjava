@@ -5,6 +5,9 @@ public class Clase4 {
     public Scanner onn= new Scanner(System.in);
     public double a;
     public double b;
+    public static final String ROJO = "\u001B[31m";
+    public static final String VERDE = "\u001B[32m";
+    public static final String RESET = "\u001B[0m";
     /**
      * @param args holi
      */
@@ -18,14 +21,14 @@ public class Clase4 {
     }// FINAL DEL MAIN :D
 
     public void data(){
-        System.out.println("\ningrese el primer dato de operación");
+        System.out.println("\ningrese el primer dato de operación"+ROJO+"\nIMPORTANTE: PARA DECIMALES COLOCAR , (COMA) EN VEZ DE . (PUNTO)"+RESET);
         this.a=onn.nextDouble();
-        System.out.println("\ningrese el segundo dato de operación");
+        System.out.println("\ningrese el segundo dato de operación"+ROJO+"\nIMPORTANTE: PARA DECIMALES COLOCAR , (COMA) EN VEZ DE . (PUNTO)"+RESET);
         this.b=onn.nextDouble();
     }
 
     public void menu(){
-        System.out.println(
+        System.out.println(VERDE+
                         "\nAhora indique que operacion desea realizar:" +
                         "\n----------------------------------" +
                         "\nPARA SUMA INGRESE(1)" +
@@ -34,7 +37,7 @@ public class Clase4 {
                         "\nPARA DIVIDIR INGERESE (4)" +
                         "\nPARA VER MODULO INGRESE (5)" +
                         "\nCUALQUIER OTRO NUMERO CIERRA EL SISTEMA" +
-                        "\n----------------------------------");}//FIN  DEL PRINT Y EL METODO "menu"
+                        "\n----------------------------------"+RESET);}//FIN  DEL PRINT Y EL METODO "menu"
     /**
      *      * <p> usa un scanner para ingresar un input de tipo integer para guardarlo en una variable local llamada
      *      * op para que al momento de que se despliegue el menu y
